@@ -6,6 +6,7 @@ const agentPasswords = {
     "Nand": "na29nd", // Phoenix password
     "Amita": "ami18ta", // Sage password
     "Aishwarya": "aish16ya", // Reyna password
+    "Kamal": "kk151", // Reyna password
 };
 
 document.getElementById("loginForm").addEventListener("submit", function(event) {
