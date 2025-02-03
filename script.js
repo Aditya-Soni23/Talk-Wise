@@ -1,5 +1,5 @@
 const agentPasswords = {
-    "Aditya🛠️": "adi23tya", // Jett password
+    "🛠️Aditya Soni": "adi23tya", // Jett password
     "Nand": "na29nd", // Phoenix password
     "Amita": "ami18ta", // Sage password
     "Aishwarya": "aish16ya", // Reyna password
