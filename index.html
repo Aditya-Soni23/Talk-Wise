@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="diamond.jpg">
 </head>
-<body>
-    <div class="header">
+<body><div class="video-background">
+    <video autoplay muted loop>
+      <source src="back.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+    
+    <div style="background-image: linear-gradient(to bottom right, #ff5ac0, #ffea00);
+    height: 70px; border-radius: 30px;" class="header">
         <img src="diamond.jpg" alt="Diamond Soni Labs" class="header-image">
         <p class="powered-by">Powered by Diamond Soni Labs</p>
     </div>
     <div class="login-container">
         <h1>Login to Talk Wise</h1>
         <form id="loginForm">
-            <label for="agent">Who Are You?:</label>
+            <label for="agent">Choose your Agent:</label>
             <select id="agent" name="agent" onchange="showAgentPreview()">
                 <option value="">Select User</option>
-                <option value="Aditya">Aditya Soni</option>
+                <option value="Aditya🛠️">Aditya Soni</option>
                 <option value="Nand">Nand Kumar</option>
                 <option value="Amita">Amita Soni</option>
                 <option value="Aishwarya">Aishwarya Soni</option>
                 <option value="Kamal">Kamal Kant</option>
-
             </select>
 
             <div id="agentPreview" class="agent-preview"></div>
